@@ -90,18 +90,12 @@ class Permission
 
         foreach ($permissions as $tab => $tabPermissions) {
             foreach ($tabPermissions as $permission) {
-                $permObj = (object)[
-                    'code' => $permission['code'],
-                    'label' => $permission['label'],
-                    'tab' => $tab,
-                    'comment' => $permission['comment'] ?? null,
-                    'order' => $permission['order'] ?? 999,
-                    'children' => []
-                ];
-
-                $permObj->addChild = function($child) use ($permObj) {
-                    $permObj->children[] = $child;
-                };
+                $permObj = new PermissionItem();
+                $permObj->code = $permission['code'];
+                $permObj->label = $permission['label'];
+                $permObj->tab = $tab;
+                $permObj->comment = $permission['comment'] ?? null;
+                $permObj->order = $permission['order'] ?? 999;
 
                 $result[$permission['code']] = $permObj;
             }
