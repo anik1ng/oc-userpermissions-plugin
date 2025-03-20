@@ -1,4 +1,4 @@
-<?php namespace ANIKIN\UserPermissions\Models;
+<?php namespace ANIKIN\UserPermissions\Classes;
 
 /**
  * Model Permission
@@ -6,7 +6,7 @@
  * @package ANIKIN\UserPermissions
  * @author Constantine Anikin
  */
-class Permission extends \Model
+class Permission
 {
     /**
      * returns a list of permissions organized by tabs,

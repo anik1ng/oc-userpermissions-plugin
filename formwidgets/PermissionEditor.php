@@ -1,6 +1,6 @@
 <?php namespace ANIKIN\UserPermissions\FormWidgets;
 
-use ANIKIN\UserPermissions\Models\Permission;
+use ANIKIN\UserPermissions\Classes\Permission;
 
 /**
  * PermissionEditor

@@ -1,7 +1,7 @@
 <?php namespace ANIKIN\UserPermissions\Components;
 
-use ANIKIN\UserPermissions\Models\Permission;
 use Auth;
+use ANIKIN\UserPermissions\Classes\Permission;
 
 /**
  * Component CheckPermission
