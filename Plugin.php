@@ -18,6 +18,7 @@ class Plugin extends \System\Classes\PluginBase
             'name' => 'User Permissions',
             'description' => 'Extends RainLab.User plugin with roles and permissions',
             'author' => 'Constantine Anikin',
+            'homepage' => 'https://github.com/anik1ng/oc-userpermissions-plugin',
             'icon' => 'icon-user-secret'
         ];
     }
