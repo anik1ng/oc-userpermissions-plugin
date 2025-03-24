@@ -27,6 +27,12 @@ class PermissionEditor extends \Backend\FormWidgets\PermissionEditor
         return Permission::getPermissionsForWidget();
     }
 
+    protected function loadAssets()
+    {
+        $this->addCss('/modules/backend/formwidgets/permissioneditor/assets/css/permissioneditor.css');
+        $this->addJs('/modules/backend/formwidgets/permissioneditor/assets/js/permissioneditor.js');
+    }
+
     public function getSaveValue($value): array|string
     {
         if ( ! is_array($value)) {
