@@ -17,5 +17,6 @@
         "rainlab/user-plugin": ">=3.0",
         "composer/installers": "~1.0"
     },
-    "minimum-stability": "dev"
+    "version": "1.0.0",
+    "minimum-stability": "stable"
 }
