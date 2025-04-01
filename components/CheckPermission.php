@@ -10,7 +10,7 @@ use ANIKIN\UserPermissions\Classes\Permission;
  * If the user does not have the required permission, they can be redirected to a specified page.
  *
  * @package ANIKIN\UserPermissions
- * @author Constantine Anikin
+ * @author Constantine Anikin, mail@anikin.pro, https://anikin.pro
  */
 class CheckPermission extends \Cms\Classes\ComponentBase
 {

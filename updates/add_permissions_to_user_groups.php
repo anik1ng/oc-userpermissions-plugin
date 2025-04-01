@@ -6,7 +6,7 @@ use October\Rain\Database\Schema\Blueprint;
 /**
  * Migration AddPermissionsToUserGroups
  *
- * @package VETRINA\Warehouse
+ * @package ANIKIN\UserPermissions
  * @author Constantine Anikin, mail@anikin.pro, https://anikin.pro
  */
 return new class extends \October\Rain\Database\Updates\Migration

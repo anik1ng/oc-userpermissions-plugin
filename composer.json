@@ -2,7 +2,7 @@
     "name": "anikin/userpermissions-plugin",
     "type": "october-plugin",
     "description": "Add permissions for User plugin for October CMS",
-    "homepage": "https://github.com/anik1ng/userpermissions-plugin",
+    "homepage": "https://github.com/anik1ng/oc-userpermissions-plugin",
     "keywords": ["october", "octobercms", "user", "permission"],
     "license": "MIT",
     "authors": [
@@ -17,6 +17,6 @@
         "rainlab/user-plugin": ">=3.0",
         "composer/installers": "~1.0"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minimum-stability": "stable"
 }

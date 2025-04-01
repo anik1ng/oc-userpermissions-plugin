@@ -6,7 +6,7 @@ use Event;
  * Plugin ANIKIN.UserPermissions
  *
  * @package ANIKIN\UserPermissions
- * @author Constantine Anikin
+ * @author Constantine Anikin, mail@anikin.pro, https://anikin.pro
  */
 class Plugin extends \System\Classes\PluginBase
 {

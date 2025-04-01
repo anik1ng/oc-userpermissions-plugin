@@ -5,8 +5,8 @@
  *
  * Represents a single permission item for use in the PermissionEditor widget.
  *
- * @package ANIKIN\UserPermissions\Models
- * @author Constantine Anikin
+ * @package ANIKIN\UserPermissions
+ * @author Constantine Anikin, mail@anikin.pro, https://anikin.pro
  */
 class PermissionItem
 {

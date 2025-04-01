@@ -4,7 +4,7 @@
  * ExtendUserGroupModel
  *
  * @package ANIKIN\UserPermissions
- * @author Constantine Anikin
+ * @author Constantine Anikin, mail@anikin.pro, https://anikin.pro
  */
 class ExtendUserGroupModel
 {

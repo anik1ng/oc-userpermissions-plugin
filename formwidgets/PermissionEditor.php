@@ -6,7 +6,7 @@ use ANIKIN\UserPermissions\Classes\Permission;
  * PermissionEditor
  *
  * @package ANIKIN\UserPermissions
- * @author Constantine Anikin
+ * @author Constantine Anikin, mail@anikin.pro, https://anikin.pro
  */
 class PermissionEditor extends \Backend\FormWidgets\PermissionEditor
 {

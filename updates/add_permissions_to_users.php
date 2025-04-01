@@ -3,7 +3,12 @@
 use Schema;
 use October\Rain\Database\Schema\Blueprint;
 
-
+/**
+ * Migration AddPermissionsToUsers
+ *
+ * @package ANIKIN\UserPermissions
+ * @author Constantine Anikin, mail@anikin.pro, https://anikin.pro
+ */
 return new class extends \October\Rain\Database\Updates\Migration {
     const TABLE = 'users';
     const COLUMN = 'permissions';
