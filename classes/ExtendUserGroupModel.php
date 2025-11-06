@@ -14,9 +14,7 @@ class ExtendUserGroupModel
             $model->addJsonable('permissions');
 
             $model->addDynamicMethod('hasPermission', function($permission) use ($model) {
-                return is_array($model->permissions)
-                    && isset($model->permissions[$permission])
-                    && $model->permissions[$permission] == 1;
+                return PermissionChecker::hasPermission($model->permissions, $permission);
             });
         });
     }

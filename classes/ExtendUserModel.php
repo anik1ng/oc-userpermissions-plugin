@@ -37,9 +37,8 @@ class ExtendUserModel
             return false;
         }
 
-        if (is_array($model->permissions)
-            && isset($model->permissions[$permission])
-            && $model->permissions[$permission] == 1) {
+        // check individual permissions
+        if (PermissionChecker::hasPermission($model->permissions, $permission)) {
             return true;
         }
 

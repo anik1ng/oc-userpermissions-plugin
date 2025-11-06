@@ -2,3 +2,5 @@ v1.0.1:
   - First version of ANIKIN.UserPermissions
   - add_permissions_to_users.php
   - add_permissions_to_user_groups.php
+v1.0.2:
+  - Fixed hierarchical permission system to properly support parent-child relationships
